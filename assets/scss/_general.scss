@@ -1,0 +1,18 @@
+/*
+RAPPEL Command SCSS => terminal
+cd assets
+dart-sass/sass scss/style.scss css/style.css
+*/
+
+// RESET
+* 
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'roboto';
+}
