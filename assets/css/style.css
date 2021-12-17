@@ -1,1 +1,64 @@
+/* headline color */
+/*
+RAPPEL Command SCSS => terminal
+cd assets
+dart-sass/sass scss/style.scss css/style.css
+*/
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
 
+body {
+  font-family: "roboto";
+}
+
+/* general site police */
+@font-face {
+  font-family: "roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+/* font for headlines */
+@font-face {
+  font-family: "";
+  src: url();
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: #f2f2f2;
+  padding: 2em;
+}
+nav p {
+  font-size: 20px;
+}
+
+.toolbarReseau {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 2em;
+}
+.toolbarReseau img {
+  margin-right: 700px;
+}
+.toolbarReseau i {
+  padding: 0.6em;
+  font-size: 25px;
+}
+.toolbarReseau .fa-facebook {
+  color: #355a8f;
+}
+.toolbarReseau .fa-twitter {
+  color: #57aef3;
+}
+.toolbarReseau .fa-instagram {
+  color: #c33eab;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,31 @@
+// NAVBAR
+nav{
+    @include flex($just:space-between);
+    background-color: $lightGray;
+    padding: 2em;
+    p{
+        font-size: 20px;
+    }
+}
+
+// TOOLBAR RESEAUX
+.toolbarReseau{
+    @include flex;
+    padding: 2em;
+    img{
+        margin-right: 700px;
+    }
+    i{
+        padding: 0.6em;
+        font-size: 25px;
+    }
+    .fa-facebook{
+        color: #355a8f;
+    }
+    .fa-twitter{
+        color: #57aef3;
+    }
+    .fa-instagram{
+        color: #c33eab;
+    }
+}
