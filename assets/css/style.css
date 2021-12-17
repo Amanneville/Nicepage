@@ -12,14 +12,10 @@ dart-sass/sass scss/style.scss css/style.css
 }
 
 body {
-  font-family: "roboto";
+  font-family: "open";
 }
 
 /* general site police */
-@font-face {
-  font-family: "roboto";
-  src: url(../fonts/Roboto-Regular.ttf);
-}
 /* font for headlines */
 @font-face {
   font-family: "oswald";
@@ -28,6 +24,10 @@ body {
 @font-face {
   font-family: "pt";
   src: url(../fonts/PTSans-Regular.ttf);
+}
+@font-face {
+  font-family: "open";
+  src: url(../fonts/OpenSans-Regular.ttf);
 }
 nav {
   display: flex;
@@ -96,7 +96,7 @@ nav p {
 }
 .profilPresent article p {
   color: #808080;
-  margin: 24px 0 s0;
+  margin: 24px 0 0 0;
 }
 
 /*# sourceMappingURL=style.css.map */

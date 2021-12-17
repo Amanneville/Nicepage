@@ -1,10 +1,5 @@
 // THE FONTS
 /* general site police */
-@font-face {
-    font-family: 'roboto';
-    src: url(../fonts/Roboto-Regular.ttf);
-}
-
 /* font for headlines */
 @font-face {
     font-family: 'oswald';
@@ -14,4 +9,9 @@
 @font-face {
     font-family: 'pt';
     src: url(../fonts/PTSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'open';
+    src: url(../fonts/OpenSans-Regular.ttf);
 }
