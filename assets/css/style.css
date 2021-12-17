@@ -22,8 +22,12 @@ body {
 }
 /* font for headlines */
 @font-face {
-  font-family: "";
-  src: url();
+  font-family: "oswald";
+  src: url(../fonts/Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "pt";
+  src: url(../fonts/PTSans-Regular.ttf);
 }
 nav {
   display: flex;
@@ -59,6 +63,40 @@ nav p {
 }
 .toolbarReseau .fa-instagram {
   color: #c33eab;
+}
+
+.profilPresent {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  background-color: #4d5dab;
+}
+.profilPresent img {
+  height: 720px;
+}
+.profilPresent article {
+  background-color: white;
+  height: 720px;
+  padding: 0 50px 0 50px;
+}
+.profilPresent article h1 {
+  padding-top: 50px;
+  font-family: "oswald";
+  font-size: 80px;
+  font-weight: 400;
+}
+.profilPresent article h2 {
+  font-family: "pt";
+  font-size: 24px;
+  color: #4d5dab;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.profilPresent article p {
+  color: #808080;
+  margin: 24px 0 s0;
 }
 
 /*# sourceMappingURL=style.css.map */
